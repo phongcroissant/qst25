@@ -2,7 +2,7 @@
 namespace App\Vue;
 use App\Utilitaire\Vue_Composant;
 
-class Vue_Menu_B extends Vue_Composant
+class Vue_Menu_MaTable extends Vue_Composant
 {
     public function __construct( )
     {           }
@@ -13,8 +13,8 @@ class Vue_Menu_B extends Vue_Composant
              <nav id='menu'>
               <ul id='menu-closed'> 
                 <li><a href='?case=A'>cas A</a></li>
-                <li><a href='?case=B'>****cas B****</a></li> 
-                <li><a href='?case=maTable'>Ma Table</a></li>    
+                <li><a href='?case=B'>cas B</a></li>   
+                <li><a href='?case=maTable'>****Ma Table****</a></li>   
                    </ul>
             </nav> 
 ";
