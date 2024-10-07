@@ -21,8 +21,9 @@ class Vue_AjouterMaTable extends Vue_Composant
 <form>
     <table> 
         <tr> <td>id</td><td>Automatique !</td> </tr>
-         <tr>    <td>champ1</td><td> <input type='text' name='champ1'> </td></tr>
-        <tr>     <td>champ2</td> <td> <input type='text' name='champ2'> </td></tr>
+         <tr>    <td>nom</td><td> <input type='text' name='nom'> </td></tr>
+        <tr>     <td>prenom</td> <td> <input type='text' name='prenom'> </td></tr>
+        <tr>     <td>motdepasse</td> <td> <input type='password' name='motdepasse'> </td></tr>
     </table>
     <input type='hidden' name='case' value ='maTable'>
     <button type='submit' name = 'action' value='enregistrerAjouter'> Ajouter !!</button>
